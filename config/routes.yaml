@@ -8,3 +8,9 @@ kernel:
 show:
     path: /SasAnamaria
     controller: App\Controller\show
+
+
+Qumseya-Ibrahim:
+    path: /qumseya-Ibrahim
+    controller: App\Controller\QumseyaIbrahimController::number
+
