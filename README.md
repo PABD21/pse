@@ -15,3 +15,5 @@
 # Precup Cristian Sorin
 # Mihai Baciu
 # Mircea Raul
+# Bako Amalia Alexandra
+
