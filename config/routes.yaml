@@ -14,11 +14,9 @@ Qumseya-Ibrahim:
     path: /qumseya-Ibrahim
     controller: App\Controller\QumseyaIbrahimController::number
 
-<<<<<<< HEAD
 Mihai_Baciu:
     path: /MihaiBaciu
     controller: App\Controller\MihaiBaciuController::PersonalPage
-=======
 Precup-Cristian:
     path: /PrecupCristian
     controller: App\Controller\PrecupCristianController::number
@@ -26,4 +24,3 @@ Precup-Cristian:
 Puia-Daniela:
     path: /PuiaDaniela
     controller: App\Controller\PuiaDanielaController::number
->>>>>>> 4c2a0a0f02c906c82a4979a6d503f7503e5320fd

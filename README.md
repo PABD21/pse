@@ -18,7 +18,7 @@
 # Moga Amadeus
 # Denis Popa
 # Roxana Budiu
-# Mihai Baciu
+
 
 # Precup Cristian Sorin
 # Bako Amalia Alexandra
