@@ -18,6 +18,10 @@ Precup-Cristian:
     path: /PrecupCristian
     controller: App\Controller\PrecupCristianController::number
 
+Puia-Daniela:
+    path: /PuiaDaniela
+    controller: App\Controller\PuiaDanielaController::number
+
 MunteanAlin:
     path: /MunteanAlin
     controller: App\Controller\MunteanAlinController::number
