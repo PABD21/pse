@@ -8,7 +8,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
-class QumseyaIbrahimController extends AbstractController
+class PrecupCristianController extends AbstractController
 {
     #[Route('/PrecupCristian')]
     public function PersonalPage(): Response
