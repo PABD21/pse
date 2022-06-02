@@ -8,15 +8,15 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
-class PrecupCristianController extends AbstractController
+class MirceaRaulController extends AbstractController
 {
-    #[Route('/PrecupCristian')]
+    #[Route('/MirceaRaul')]
     public function PersonalPage(): Response
     {
 
-        return $this->render('PrecupCristian/index.html.twig', [
-            'owner' => 'Precup Cristian Sorin',
-            'job' => 'we developer',
+        return $this->render('MirceaRaul/index.html.twig', [
+            'owner' => 'Mircea Raul',
+            'job' => 'soldier',
             'age' => $this->getAge(),
             'copyrightInterval' => $this->getCopyrightInterval(),
         ]);
@@ -25,7 +25,7 @@ class PrecupCristianController extends AbstractController
     private function getAge(): int
         {
             $now = new DateTime("now");
-            $dob = new DateTime("1982-05-27 00:00:00");
+            $dob = new DateTime("1998-03-18 00:00:00");
             return $dob->diff($now)->y;
         }
     private function getCopyrightInterval(): string

@@ -1,0 +1,23 @@
+<section id="ma-section">
+  <p><i><b>Microsoft Dynamics 365 Business Central</b> is an enterprise resource planning (ERP) system from Microsoft, part of the Microsoft Dynamics 365 product family.
+  The product is designed to assist with finance, manufacturing, customer relationship management, supply chains, analytics and electronic commerce operations of small to medium businesses (SMB).</i></p>
+  <p><i><b>C/AL (Client/server Application Language)</b> was the programming language used within C/SIDE the Client/Server Integrated Development Environment in Microsoft Dynamics NAV (Formerly known as Navision Attain) and Microsoft Dynamics 365 Business Central up until (and including) version 14. It has been replaced by AL. C/AL is a Database specific programming language, and is primarily used for retrieving, inserting and modifying records in a Navision database. C/AL resembles the Pascal language on which it is based. The original C/AL compiler was written by Michael Nielsen.</i></p>
+  <h3>Knowledge</h3>
+  <ul>
+    {% for knowledge in knowledges %}
+    <li class = "title">{{ knowledge.name }} - Experience: {{ knowledge.experience }}</li>
+    {% endfor %}
+  </ul>
+  <h3>Education</h3>
+  <ul>
+    {% for education in education %}
+    <li><b>Nivel:{{ education.level }}</b>
+    <br>- Institutia: {{ education.institution }}
+    <br> - Profil: {{education.profile}}
+    <br> - Durata: {{education.durata}}
+    </li>
+    <br>
+    {% endfor %}
+  </ul>
+  <hr />
+</section>

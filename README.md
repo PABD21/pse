@@ -1,11 +1,6 @@
 # pse
-
-
 # Puia Daniela - Rodica
-
 # SAS ANAMARIA
-
-
 # Bogdan Remus Cristian
 # SAS ANAMARIA
 # Anca Adrian
@@ -25,5 +20,9 @@
 # Mihai Baciu
 # Barz Mihai
 
+# Vass Richard-Daniel
 # Muntean Alin Daniel
 # Capilnas Matei-Vasile
+# Visan Cosmin
+# Hanches Otilia
+# Mircea Raul

@@ -17,6 +17,7 @@ Qumseya-Ibrahim:
 Mihai_Baciu:
     path: /MihaiBaciu
     controller: App\Controller\MihaiBaciuController::PersonalPage
+
 Precup-Cristian:
     path: /PrecupCristian
     controller: App\Controller\PrecupCristianController::number
@@ -24,3 +25,11 @@ Precup-Cristian:
 Puia-Daniela:
     path: /PuiaDaniela
     controller: App\Controller\PuiaDanielaController::number
+
+MirceaRaul:
+    path: /MirceaRaul
+    controller: App\Controller\MirceaRaulController::number
+    
+Capilnas-Matei:
+    path: /CapilnasMatei
+    controller: App\Controller\CapilnasMateiController::number
