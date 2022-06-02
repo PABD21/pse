@@ -26,6 +26,11 @@ Puia-Daniela:
     path: /PuiaDaniela
     controller: App\Controller\PuiaDanielaController::number
 
+
+MunteanAlin:
+    path: /MunteanAlin
+    controller: App\Controller\MunteanAlinController::number
+
 MirceaRaul:
     path: /MirceaRaul
     controller: App\Controller\MirceaRaulController::number
