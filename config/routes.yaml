@@ -26,3 +26,7 @@ Puia-Daniela:
 MirceaRaul:
     path: /MirceaRaul
     controller: App\Controller\MirceaRaulController::number
+    
+Capilnas-Matei:
+    path: /CapilnasMatei
+    controller: App\Controller\CapilnasMateiController::number
