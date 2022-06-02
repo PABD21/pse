@@ -13,10 +13,13 @@
 # Moga Amadeus
 # Denis Popa
 # Roxana Budiu
+
+
 # Precup Cristian Sorin
 # Bako Amalia Alexandra
 # Mihai Baciu
 # Barz Mihai
+
 # Vass Richard-Daniel
 # Muntean Alin Daniel
 # Capilnas Matei-Vasile
