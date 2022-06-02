@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+
+}
+html {
+    height:auto;
+
+
+}
+ 
+body {
+    margin:0;
+
+}
+ 
+.bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+}
+ 
+.bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:15s;
+}
+ 
+.bg3 {
+    animation-duration:20s;
+}
+ 
+
+h1 {
+    font-family:monospace;
+}
+ 
+@keyframes slide {
+    0% {
+        transform:translateX(-25%);
+    }
+ 
+    50% {
+        transform:translateX(25%);
+    }
+}
+body {
+  margin: 0;
+  font-family: Times New Roman, sans-serif;
+  background-color: #FFFF99;
+}
+.typing {
+  height: 10vh;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.typing-effect {
+  width: 22ch;
+  animation: typing 4s steps(22), effect .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes effect {
+  50% {
+    border-color: transparent
+  }
+}
+
+.polaroid {
+  position: relative;
+  width: 220px;
+}
+ 
+.polaroid img {
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+}
+ 
+.polaroid p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  font: 400 18px/1 'Kaushan Script', cursive;
+  color: #888;
+}
+p{
+    font-family: Kaushan Script;
+    color:black;
+    overflow: hidden;
+}
+h1{
+    font-family: Kaushan Script;
+    color:#333300; 
+    text-align: left;
+}
+
+h2{
+    font-family: Kaushan Script;
+    color:#333300; 
+    text-align: left;
+    text-decoration: overline;
+}
+h3{
+    font-family: Kaushan Script;
+    color:#333300; 
+}
+#footer{
+    position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px; 
+}
+.content {
+  position: absolute;
+  height: 80%; 
+  width: 80%; 
+  top: 15%; 
+  left: 15%;
+  bottom: 15%;
+
+}
+
+ul {
+  list-style: inside;
+}
+ul.a {
+  list-style-type: square;
+}
+.responsive{
+    max-width: 100%;
+    height: auto;
+   
+  }
+.polaroid {
+  position: relative;
+  width: 220px;
+}
+ 
+.polaroid img {
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+}
+ 
+
+

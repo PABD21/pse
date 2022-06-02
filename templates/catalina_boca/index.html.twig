@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="/catalina_boca/css/css.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>{{ author }}</title>
+</head>
+
+<body id="ma-body">
+  {% block body %}
+  <main id="ma-main">
+    {% include 'catalina_boca/header.html.twig' %}
+    {% include 'catalina_boca/content.html.twig' %}
+    {% include 'catalina_boca/footer.html.twig' %}
+  </main>
+  {% endblock %}
+
+</body>
+
+</html>
