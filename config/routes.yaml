@@ -7,7 +7,7 @@ kernel:
     type: annotation
 
 AncaAdrian:
-    path: /AncaAdrian
+    path: /anca-adrian
     controller: App\Controller\AncaAdrianController::number
 
 Qumseya-Ibrahim:
