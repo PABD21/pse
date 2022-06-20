@@ -14,5 +14,5 @@ class AncaAdrianController extends AbstractController
                 'controller_name' => 'AncaAdrianController',
         ]);
     }
+  }
 
-}

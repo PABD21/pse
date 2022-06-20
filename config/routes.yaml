@@ -6,9 +6,9 @@ kernel:
     resource: ../src/Kernel.php
     type: annotation
 
-index:
-    path: /AncaAdrian
-    controller: App\Controller\index
+AncaAdrian:
+    path: /anca-adrian
+    controller: App\Controller\AncaAdrianController::number
 
 Qumseya-Ibrahim:
     path: /qumseya-Ibrahim
@@ -38,3 +38,4 @@ MirceaRaul:
 Capilnas-Matei:
     path: /CapilnasMatei
     controller: App\Controller\CapilnasMateiController::number
+
