@@ -36,6 +36,7 @@ final class Version20220510162144 extends AbstractMigration
             ["name" => "Baciu Mihai", "link" => "#", "picture" => "/uploads/placeholder.png"],
             ["name" => "Muntean Alin", "link" => "#", "picture" => "/uploads/placeholder.png"],
             ["name" => "Puia Rodica-Daniela", "link" => "#", "picture" => "/uploads/placeholder.png"],
+            ["name" => "Spineanu Cosmin", "link"=>"/spineanu-cosmin", "picture" => "/SpineanuCosmin/img/spineanu_c.jpg"]
         ];
         // this up() migration is auto-generated, please modify it to your needs
         $this->addSql('CREATE TABLE student (id INT AUTO_INCREMENT NOT NULL, name VARCHAR(255) NOT NULL, picture VARCHAR(255), link VARCHAR(255), PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8mb4 COLLATE `utf8mb4_unicode_ci` ENGINE = InnoDB');
