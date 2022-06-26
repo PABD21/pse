@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{studentName}}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" type="text/css"/>
+        <link rel="stylesheet" href="SpineanuCosmin/css/spineanu.css" type="text/css"/>
+    </head>
+
+    <body>
+        <main>
+            <div class="container h-center">
+                <div class="third-width col text-center overflow-hidden">
+                    <img class="showUpBottom img-enlarge-hover" style="width:100%;" src="SpineanuCosmin/img/spineanu_c.jpg" alt="{{studentName}}" title="{{studentName}}"/>
+                </div>
+                <div class="half-width col showUpBottom">
+                    <h1 class="text-large bold text-cursive">{{studentName}}</h1>
+                    <h2 class="text-medium italic p-1 pl-0">{{tagLine}}</h2>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <p class="description text-justify">
+                                        I'm a fast learner, hardworking individual and also flexible in a variety of career fields. My objectives revolve around finding ways to be more effective and efficient hence I'm interested in further developing my professional experience by successfully applying all my acquired skills.
+                                    </p>
+
+                                    <p class="description">
+                                        <i class="fa-solid fa-list text-info"></i> My highlighted skills are:
+                                    </p>  
+
+                                    <ul class="checkboxed">
+                                    {% for skill in skills%}
+                                        <li>{{skill.name}}</li>
+                                    {% endfor %}
+                                    </ul>
+
+                                    <p class="description">
+                                        <i class="fa-solid fa-face-smile text-info"></i> Some of my hobbies are:
+                                    </p>
+                                    <ul class="text-enlarge-hover">
+                                    {% for hobby in hobbies%}
+                                        <li><i class="fa-solid {{hobby.icon}}"></i> {{hobby.name}}</li>
+                                    {% endfor %}
+                                    </ul>
+
+                                    <p class="description">
+                                        <i class="fa-solid fa-graduation-cap text-info"></i> And this is where I've studied so far:
+                                    </p>
+                                    <ul class="">
+                                    {% for school in education%}
+                                        <li>
+                                            <h3 class="text-medium mt-default">{{school.schoolName}}</h3>
+                                            <p class="text-muted">{{school.description}} <span  class="pill text-small">{{school.startYear}} - {{school.endYear}}</span></p>
+
+                                            
+
+                                        </li>
+                                    {% endfor %}
+                                    </ul>
+
+
+                                </div>
+                            </div>  
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+
+        
+
+    </body>
+</html>
